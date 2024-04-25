@@ -8,5 +8,3 @@ def tran(audio_file, nivel):
     
     with open(f"{name_text}.txt", "w") as f:
         f.write(result["text"])
-
-def(new)
