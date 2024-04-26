@@ -3,11 +3,11 @@ from pytube import YouTube
 from wpr import tran
 
 
-file_name = input("ponle un nombre al archivo: ")
-link = input("Pega tu link de youtube aquí, URL: ")
+file_name = input("ponle un nombre al archivo: ") # Elegir el nombre que tendráel archivo de salida
+link = input("Pega tu link de youtube aquí, URL: ") # Solicita link del video de youtube
 nivel_modelo_whisper = "small" # las opciones son: "tiny", "base", "small", "medium", "large"
 
-
+# Función que descarga el video de Youtube en .mp4
 def Download(link):
   yt = YouTube(link)
   yt = yt.streams.get_lowest_resolution()
