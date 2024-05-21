@@ -3,7 +3,7 @@ from pytube import YouTube
 from wpr import tran
 
 
-file_name = input("ponle un nombre al archivo: ") # Elegir el nombre que tendráel archivo de salida
+file_name = input("ponle un nombre al archivo: ") # Elegir el nombre que tendrá el archivo de salida
 link = input("Pega tu link de youtube aquí, URL: ") # Solicita link del video de youtube
 nivel_modelo_whisper = "small" # las opciones son: "tiny", "base", "small", "medium", "large"
 
