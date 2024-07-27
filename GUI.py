@@ -14,7 +14,7 @@ window.geometry("400x250")
 #Title
 title_label = ttk.Label(master = window, 
                         text = "YouTube Transcribe", 
-                        font = "Roboto 18")
+                        font = "Roboto 16")
 title_label.pack(pady = 20) 
 
 #Input field
